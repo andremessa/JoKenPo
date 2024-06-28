@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./img/16351999_v935-aum-09-a.jpg');
+    background-size: cover;       
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container{
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    margin: 40px 0;
+    display: flex;
+    gap: 30px;
+}
+
+button{
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#rock{
+    background-color: rgb(47, 66, 238);
+}
+
+#paper{
+    background-color: rgb(47, 163, 47);
+}
+
+#scissors{
+    background-color: rgb(238, 78, 78);
+}
+
+p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.human-score span{
+    color: green;
+}
+
+.machine-score span{
+    color: red;
+}
